@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Online</title>
+    <link rel="css" href="styles.css">
+</head>
+<body>
+    <!-- Header (Cabeçalho) -->
+    <header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <h1>VogueCraft</h1> <!-- Nome da loja centralizado -->
+            </div>
+            <div class="logo-right">
+                <img src="img.html/logo VogueCraft.png" alt="logo">
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Contêiner para os quadrados com imagens -->
+    <section class="image-gallery">
+        <div class="image-box">
+            <img src="img.html/sapato 4.jpg" alt="Sapato">
+        </div>
+        <div class="image-box">
+            <img src="img.html/calça 400.jpg" alt="calça">
+        </div>
+        <div class="image-box">
+            <img src="img.html/camisa 400.jpg" alt="camisa">
+        </div>
+        <div class="image-box">
+            <img src="img.html/vestido 400.jpg" alt="vestido">
+        </div>
+    </section>
+</body>
+</html>
+
+    <!-- Restante do conteúdo da página... -->
+</body>
+</html>
+
+<style>
+
+    /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #5c109b;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;  /* Flexbox para distribuir os itens */
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .menu {
+    flex: 1;  /* Ocupa todo o espaço disponível à esquerda */
+}
+
+nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .menu ul li {
+    margin: 0 15px;
+}
+
+nav .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .logo {
+    text-align: center;
+    flex: 2;  /* Permite que o nome da loja fique centralizado */
+}
+
+nav .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav .logo-right {
+    flex: 1;  /* Ocupa todo o espaço disponível à direita */
+    text-align: right;
+}
+
+nav .logo-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+</style>
+
+<style>
+
+    /* Resetando margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #5c109b
+    color: white;
+}
+
+/* Estilos para o contêiner das imagens */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;  /* Espaçamento igual entre os itens */
+    gap: 20px;  /* Espaçamento entre as caixas */
+    padding: 20px;  /* Distância do topo */
+    flex-wrap: wrap;  /* Permite que as caixas se ajustem se a tela for pequena */
+}
+
+.image-box {
+    width: 22%;  /* Largura das caixas (com base em 4 imagens em uma linha) */
+    height: 200px;  /* Altura fixa para as caixas */
+    background-color: #fff;  /* Cor de fundo das caixas */
+    border: 2px solid #ddd;  /* Borda das caixas */
+    border-radius: 10px;  /* Bordas arredondadas */
+    overflow: hidden;  /* Esconde partes da imagem que ultrapassam a caixa */
+}
+
+.image-box img {
+    width: 100%;  /* Faz a imagem ocupar toda a largura da caixa */
+    height: 100%;  /* Faz a imagem ocupar toda a altura da caixa */
+    object-fit: cover;  /* Garante que a imagem ocupe toda a área da caixa, cortando se necessário */
+}
+
+</style>
